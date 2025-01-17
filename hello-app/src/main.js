@@ -3,7 +3,7 @@ import javascriptLogo from './javascript.svg';
 import viteLogo from '/vite.svg';
 import { setupCounter } from './counter.js';
 
-document.querySelector('#app').innerHTML = `
+id_app.innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
@@ -13,7 +13,7 @@ document.querySelector('#app').innerHTML = `
     </a>
     <h1>Hello Vite! 2025-01-17</h1>
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button id="id_counter" type="button"></button>
     </div>
     <p class="read-the-docs">
       Click on the Vite logo to learn more
@@ -21,4 +21,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 `;
 
-setupCounter(document.querySelector('#counter'));
+setupCounter(id_counter);
