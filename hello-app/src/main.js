@@ -11,9 +11,10 @@ id_app.innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite! 2025-01-17</h1>
+    <h1>Hello Vite! 2025-01-18 a</h1>
     <div class="card">
       <button id="id_counter" type="button"></button>
+      <button id="id_counter2" type="button"></button>
     </div>
     <p class="read-the-docs">
       Click on the Vite logo to learn more
@@ -22,3 +23,4 @@ id_app.innerHTML = `
 `;
 
 setupCounter(id_counter);
+setupCounter(id_counter2);
