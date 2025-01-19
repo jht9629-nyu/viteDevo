@@ -7977,8 +7977,8 @@ function jc() {
   return (zl.createRoot = R.createRoot), (zl.hydrateRoot = R.hydrateRoot), zl;
 }
 var Fc = jc();
-const Uc = '/assets/react-CHdo91hT.svg',
-  Vc = '/vite.svg';
+const Uc = '' + new URL('react-CHdo91hT.svg', import.meta.url).href,
+  Vc = '' + new URL('../vite.svg', import.meta.url).href;
 function Ac() {
   const [R, A] = Oa.useState(0);
   return Pe.jsxs(Pe.Fragment, {
