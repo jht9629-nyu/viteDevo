@@ -16,7 +16,7 @@ document.adoptedStyleSheets = [sheet];
 export function App() {
   const [count, setCount] = useState(0);
 
-  return html`<div>
+  return html`<div id="id_app">
     <h1>Preact</h1>
     <div class="card">
       <button onClick=${() => setCount((count) => count + 1)}>count is ${count}</button>
