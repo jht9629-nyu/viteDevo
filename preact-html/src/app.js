@@ -1,5 +1,8 @@
 //
-import { useState, html, render } from 'https://esm.sh/htm/preact/standalone';
+// import { useState, html, render } from 'https://esm.sh/htm/preact/standalone';
+import { render } from 'preact';
+import { html } from 'htm/preact';
+import { useState } from 'react';
 
 // import preactLogo from './assets/preact.svg'
 // import viteLogo from '/vite.svg'

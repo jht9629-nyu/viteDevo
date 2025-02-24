@@ -7,6 +7,17 @@
   </head>
   <body>
     <div id="id_app"></div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact@10.23.1",
+          "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact",
+          "react": "https://esm.sh/preact@10.23.1/compat"
+        }
+      }
+    </script>
+
     <script type="module" src="./src/app.js"></script>
     <!-- <script type="module" src="./src/main.js"></script> -->
   </body>

@@ -1,1 +1,85 @@
+log.txt
+
+# --
+2025-02-24 08:18:01
+
+
+viteTest/preact-html/index.html
+
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact@10.23.1",
+          "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact",
+          "react": "https://esm.sh/preact@10.23.1/compat"
+        }
+      }
+    </script>
+
+
+# --
+
+
+https://preactjs.com/
+
+https://preactjs.com/guide/v10/getting-started#aliasing-react-to-preact
+
+https://preactjs.com/guide/v10/getting-started#aliasing-with-import-maps
+
+<script type="importmap">
+  {
+    "imports": {
+      "preact": "https://esm.sh/preact@10.23.1",
+      "preact/": "https://esm.sh/preact@10.23.1/",
+      "react": "https://esm.sh/preact@10.23.1/compat",
+      "react/": "https://esm.sh/preact@10.23.1/compat/",
+      "react-dom": "https://esm.sh/preact@10.23.1/compat",
+    }
+  }
+</script>
+
+https://preactjs.com/guide/v10/no-build-workflows#basic-usage
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact@10.23.1",
+          "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script type="module">
+      import { render } from 'preact';
+      import { html } from 'htm/preact';
+
+      export function App() {
+        return html`<h1>Hello, World!</h1>`;
+      }
+
+      render(html`<${App} />`, document.getElementById('app'));
+    </script>
+  </body>
+</html>
+
+https://preactjs.com/guide/v10/no-build-workflows#aliasing-react-to-preact
+
+<script type="importmap">
+  {
+    "imports": {
+      "preact": "https://esm.sh/preact@10.23.1",
+      "preact/": "https://esm.sh/preact@10.23.1/",
+      "react": "https://esm.sh/preact@10.23.1/compat",
+      "react/": "https://esm.sh/preact@10.23.1/compat/",
+      "react-dom": "https://esm.sh/preact@10.23.1/compat",
+      "@mui/material": "https://esm.sh/@mui/material@5.16.7?external=react,react-dom"
+    }
+  }
+</script>
 
