@@ -1,5 +1,25 @@
 log.txt
 
+
+# --
+2025-02-25 17:54:17
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started
+
+npm create vite@latest moz-todo-react -- --template react
+
+npm run dev -- --open --port 3000
+
+package.json
+
+- "dev": "vite",
++ "dev": "vite --open --port 3000",
+
+https://scrimba.com/learn-react-c0e?via=mdn
+
+
+
+
 # --
 2025-02-24 08:18:01
 
