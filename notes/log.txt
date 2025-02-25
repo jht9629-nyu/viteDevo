@@ -4,6 +4,8 @@ log.txt
 # --
 2025-02-25 17:54:17
 
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Design_for_developers
+
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started
 
 npm create vite@latest moz-todo-react -- --template react
