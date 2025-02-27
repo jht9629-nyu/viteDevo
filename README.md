@@ -12,6 +12,8 @@
 
 Exploring options for website development with vite.
 
+## How?
+
 ```
 
 https://vite.dev/guide/#scaffolding-your-first-vite-project
