@@ -4,7 +4,13 @@
 
 - [react-counter/dist](https://jht9629-nyu.github.io/viteTest/react-counter/dist)
 
+- [react-counter/dist](https://jht9629-nyu.github.io/viteTest/react-counter/dist)
+
+- [vanilla-counter/dist](https://jht9629-nyu.github.io/viteTest/vanilla-counter/dist)
+
 ```
+
+?=v1
 
 jht2@Mac preact-counter % npm run build
 

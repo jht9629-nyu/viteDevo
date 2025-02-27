@@ -23,7 +23,7 @@ export function App() {
     <h1>Preact</h1>
     <div class="card">
       <button onClick=${() => setCount((count) => count + 1)}>count is ${count}</button>
-      <p>Edit <code>src/app.js</code> and save to test HMR</p>
+      <p>Edit <code>src/app.js</code> and save to test no-build deploy </p>
     </div>
     <!-- <p>
       Check out
