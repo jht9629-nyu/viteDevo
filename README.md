@@ -1,4 +1,4 @@
-# [viteTest](https://github.com/jht9629-nyu/viteTest.git)
+# [viteTest](https://github.com/jht9629-nyu/viteTest.git) ?=v2
 
 - [preact-html](https://jht9629-nyu.github.io/viteTest/preact-html)
 
@@ -8,9 +8,23 @@
 
 - [vanilla-counter/dist](https://jht9629-nyu.github.io/viteTest/vanilla-counter/dist)
 
+## What?
+
+Exploring options for website development with vite.
+
 ```
 
-?=v2
+https://vite.dev/guide/#scaffolding-your-first-vite-project
+
+npm create vite@latest
+
+Then follow the prompts!
+
+```
+
+## Details
+
+```
 
 jht2@Mac preact-counter % npm run build
 
