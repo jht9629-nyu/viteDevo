@@ -1,5 +1,9 @@
 # [viteTest](https://github.com/jht9629-nyu/viteTest.git)
 
+- [preact-html](https://jht9629-nyu.github.io/viteTest/preact-html)
+
+- [react-counter/dist](s://jht9629-nyu.github.io/viteTest/react-counter/dist)
+
 ```
 
 jht2@Mac preact-counter % npm run build
