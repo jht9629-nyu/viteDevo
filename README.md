@@ -1,12 +1,12 @@
-# [viteTest](https://github.com/jht9629-nyu/viteTest.git) ?=v3
+# [viteDevo](https://github.com/jht9629-nyu/viteDevo.git) ?=v3
 
-- [preact-html](https://jht9629-nyu.github.io/viteTest/preact-html)
+- [preact-html](https://jht9629-nyu.github.io/viteDevo/preact-html)
 
-- [vanilla-counter/dist](https://jht9629-nyu.github.io/viteTest/vanilla-counter/dist)
+- [vanilla-counter/dist](https://jht9629-nyu.github.io/viteDevo/vanilla-counter/dist)
 
-- [react-counter/dist](https://jht9629-nyu.github.io/viteTest/react-counter/dist)
+- [react-counter/dist](https://jht9629-nyu.github.io/viteDevo/react-counter/dist)
 
-- [preact-counter/dist](https://jht9629-nyu.github.io/viteTest/preact-counter/dist)
+- [preact-counter/dist](https://jht9629-nyu.github.io/viteDevo/preact-counter/dist)
 
 ## Why?
 
@@ -24,7 +24,7 @@ Then follow the prompts!
 
 ```
 
-## Details
+## Builds
 
 ```
 jht2@Mac vanilla-counter % npm run build
@@ -69,3 +69,7 @@ dist/assets/index-CVxg2Wq7.js   143.93 kB │ gzip: 46.36 kB
 hello-app/vite.config.jsXX
 
 ```
+
+## We are Devo!
+
+- [Q: Are We Not Men? A: We Are Devo!](https://www.youtube.com/watch?v=hRguZr0xCOc)
