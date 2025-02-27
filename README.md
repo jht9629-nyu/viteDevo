@@ -2,7 +2,7 @@
 
 - [preact-html](https://jht9629-nyu.github.io/viteTest/preact-html)
 
-- [react-counter/dist](s://jht9629-nyu.github.io/viteTest/react-counter/dist)
+- [react-counter/dist](https://jht9629-nyu.github.io/viteTest/react-counter/dist)
 
 ```
 
