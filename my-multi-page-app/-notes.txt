@@ -1,0 +1,81 @@
+-notes.txt
+
+npm run build 
+>> rebuilds on changes
+
+npm run preview 
+!!@ must reload to see changes
+!!@ does not see changes in home sub-folder
+
+npm run dev
+!!@ can not see home
+
+>> live server on dist folder
+!!@ needs to manual reload
+
+
+    "dev": "vite --open --port 3000",
+    "build": "vite build --emptyOutDir --watch --base=./",
+
+
+import viteLogo from './assets/vite.svg';
+
+https://stackoverflow.com/questions/77498366/how-do-i-setup-a-multi-page-app-using-vite
+
+https://vite.dev/guide/build.html#multi-page-app
+
+
+vite build --watch
+
+# --
+>> Prompt: multi page app with vite react
+https://www.google.com/search?client=safari&rls=en&q=multi+page+app+with+vite+react&ie=UTF-8&oe=UTF-8
+
+npm create vite@latest my-multi-page-app --template react
+cd my-multi-page-app
+npm install
+
+Directory Structure:
+
+        src/
+        ├── index.html
+        ├── main.jsx
+        ├── pages/
+        │   ├── home/
+        │   │   ├── Home.jsx
+        │   │   └── index.html
+        │   ├── about/
+        │   │   ├── About.jsx
+        │   │   └── index.html
+        │   └── contact/
+        │       ├── Contact.jsx
+        │       └── index.html
+        └── components/
+            └── ...
+
+Modify vite.config.js to handle multiple entry points:
+
+        // vite.config.js
+        import { defineConfig } from 'vite';
+        import react from '@vitejs/plugin-react';
+        import path from 'path';
+        
+        const root = path.resolve(__dirname, 'src');
+        const pagesDir = path.resolve(root, 'pages');
+        
+        export default defineConfig({
+            plugins: [react()],
+            root,
+            build: {
+                rollupOptions: {
+                    input: {
+                        main: path.resolve(root, 'index.html'),
+                        home: path.resolve(pagesDir, 'home', 'index.html'),
+                        about: path.resolve(pagesDir, 'about', 'index.html'),
+                        contact: path.resolve(pagesDir, 'contact', 'index.html'),
+                    },
+                },
+                outDir: path.resolve(__dirname, 'dist')
+            },
+        });
+
