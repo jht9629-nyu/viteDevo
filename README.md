@@ -4,7 +4,7 @@ Exploring options for website development with vite.
 
 ## Summary
 
-- [todo-react-main](https://jht9629-nyu.github.io/viteDevo/todo-react-main/dist) multi page app research
+- [todo-react-main](https://jht9629-nyu.github.io/viteDevo/todo-react-main/dist) todo app
 
 - [my-multi-page-app](./my-multi-page-app) multi page app research
 
