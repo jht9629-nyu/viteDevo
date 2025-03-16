@@ -1,5 +1,23 @@
 log.txt
 
+
+# --
+2025-03-16 15:40:24
+
+jht2@Mac viteDevo % npm run build
+
+> hello-app@0.0.0 build
+> vite build --base=./
+
+vite v6.2.2 building for production...
+✓ 7 modules transformed.
+dist/index.html                 0.46 kB │ gzip: 0.30 kB
+dist/assets/index-Bdl7zLtw.css  1.21 kB │ gzip: 0.63 kB
+dist/assets/index-CsyE-vZe.js   2.66 kB │ gzip: 1.43 kB
+✓ built in 45ms
+
+
+
 # --
 2025-03-11 17:07:25
 
